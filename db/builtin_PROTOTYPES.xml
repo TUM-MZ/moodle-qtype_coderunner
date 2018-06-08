@@ -566,7 +566,7 @@ disp('#<ab@17943918#@>#');
     <pertesttemplate>{{ STUDENT_ANSWER }}
 
 format free
-        
+
 {{ TEST.testcode }};</pertesttemplate>
     <language>octave</language>
     <acelang></acelang>
@@ -850,7 +850,7 @@ print(SEPARATOR)
     </testcases>
   </question>
 
-<!-- question: 17348  -->
+<!-- question: 173489  -->
   <question type="coderunner">
     <name>
       <text>BUILT_IN_PROTOTYPE_r</text>
@@ -898,14 +898,14 @@ print(separator)
     <sandbox></sandbox>
     <grader></grader>
     <cputimelimitsecs></cputimelimitsecs>
-    <memlimitmb></memlimitmb>
+    <memlimitmb>2000000</memlimitmb>
     <sandboxparams></sandboxparams>
     <templateparams></templateparams>
     <uiplugin></uiplugin>
     <testcases>
     </testcases>
   </question>
-  
+
 <!-- question: 17428  -->
   <question type="coderunner">
     <name>
@@ -964,7 +964,7 @@ def input(prompt=''):
     s = __saved_input__(prompt)
     print(s)
     return s
-    
+
 {{STUDENT_ANSWER}}
 
 {{TEST.testcode}}</pertesttemplate>
