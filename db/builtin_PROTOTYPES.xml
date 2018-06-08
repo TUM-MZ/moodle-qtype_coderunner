@@ -875,8 +875,7 @@ print(SEPARATOR)
     <answerpreload></answerpreload>
     <useace>1</useace>
     <resultcolumns></resultcolumns>
-    <template><![CDATA[{{ STUDENT_ANSWER }}
-
+    <template><![CDATA[
 {{ STUDENT_ANSWER }}
 
 separator <- "#<ab@17943918#@>#"
